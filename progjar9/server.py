@@ -6,8 +6,8 @@ import time
 import sys
 
 
-from file_protocol import  FileProtocol
-fp = FileProtocol()
+from  protocol import PlayerServerProtocol
+fp = PlayerServerProtocol()
 
 
 class ProcessTheClient(threading.Thread):
